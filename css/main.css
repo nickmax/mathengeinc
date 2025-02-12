@@ -42,12 +42,12 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #9625d5;
-  --secondary-color:              #9625d5;
+  --primary-color:                #ff3347;
+  --secondary-color:              #ff3347;
   --section-bg-color:             #ffffff;
-  --site-footer-bg-color:         #9625d5;
-  --custom-btn-bg-color:          #9625d5;
-  --custom-btn-bg-hover-color:    #9625d5;
+  --site-footer-bg-color:         #ff3347;
+  --custom-btn-bg-color:          #ff3347;
+  --custom-btn-bg-hover-color:    #ff3347;
   --dark-color:                   #231f20;
   --p-color:                      #717275;
   --border-color:                 #ffffff;
@@ -1337,7 +1337,7 @@ blockquote::before {
 /* Container Styling */
 
 .ct-style {
-  background-color: #9625d5;
+  background-color: #ff3347;
 }
 
 
@@ -1743,12 +1743,12 @@ blockquote::before {
 .img-container {
   margin: 20px;
   border-radius: 20px;
-  border: 2px solid #9625d5;
+  border: 2px solid #ff3347;
 }
 .custom-text-box-container {
   margin: 20px;
   border-radius: 20px;
-  border: 2px solid #9625d5;
+  border: 2px solid #ff3347;
 }
 .custom-text-box {
   padding: 20px;
@@ -1757,19 +1757,19 @@ blockquote::before {
   padding: 20px;
   margin: 0 auto;
   border-radius: 20px;
-  border: 2px solid #9625d5;
+  border: 2px solid #ff3347;
   text-align: center;
   width: 100%;
 }
 .counter-text {
   display: block;
   font-size: 14px;
-  color: #9625d5;
+  color: #ff3347;
   text-transform: uppercase;
 }
 #gallery-btn {
   border-radius: 40px;
-  background:#9625d5;
+  background:#ff3347;
   color: #ffffff;
   height: 50px;
 }
@@ -1833,12 +1833,12 @@ blockquote::before {
     &:hover,
     &:focus {
       cursor: pointer;
-      color: #9625d5;
+      color: #ff3347;
       
       &::after {
         cursor: pointer;
-        color: #9625d5;
-        border: 1px solid #9625d5;
+        color: #ff3347;
+        border: 1px solid #ff3347;
       }
     }
     
@@ -1881,7 +1881,7 @@ blockquote::before {
   }
 
   button[aria-expanded='true'] {
-    color: #9625d5; 
+    color: #ff3347; 
     .faqicon {
       transform: rotate(45deg); 
     }
@@ -1943,3 +1943,31 @@ blockquote::before {
 }
 
 
+/* Service Icons Section */
+.service-icon-box {
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-icon-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.service-icon-box h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.service-icon-box p {
+  font-size: 0.9rem;
+  color: #666;
+}
