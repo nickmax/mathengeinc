@@ -45,7 +45,7 @@
   --primary-color:                #ff3347;
   --secondary-color:              #ff3347;
   --section-bg-color:             #ffffff;
-  --site-footer-bg-color:         #ff3347;
+  --site-footer-bg-color:         #ffffff00;
   --custom-btn-bg-color:          #ff3347;
   --custom-btn-bg-hover-color:    #ff3347;
   --dark-color:                   #231f20;
@@ -1309,7 +1309,52 @@ blockquote::before {
   background: var(--primary-color);
 }
 
+/* Footer Styling */
+.site-footer {
+  
+  padding: 40px 0 20px;
+  border-top: 1px solid #e0e0e0;
+}
 
+.footer-logo {
+  max-width: 210px;
+  height: auto;
+}
+
+.footer-contact {
+  font-size: 14px;
+  color: #666;
+}
+
+.footer-contact a {
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+
+.site-footer-bottom {
+  
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.copyright-text {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+.copyright-text a {
+  color: #666;
+  text-decoration: none;
+}
+
+.copyright-text a:hover {
+  text-decoration: underline;
+}
 /*---------------------------------------
   FOOTER MENU               
 -----------------------------------------*/
